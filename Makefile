@@ -1,5 +1,5 @@
 # Uses Arduino.mk https://github.com/sudar/Arduino-Makefile
-BOARD_TAG    = nano328
+BOARD_TAG    = uno    
 ARDUINO_LIBS = SerialCommand RFControl Keypad DHTlib
 USER_LIB_PATH := $(realpath ./libraries)
 MONITOR_PORT  = /dev/ttyUSB0
